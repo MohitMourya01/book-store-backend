@@ -8,7 +8,7 @@ const port = process.env.PORT ||  5000;
 app.use(express.json());
 app.use(cors(
     {
-        origin: ['http://localhost:5173', "https://book-store-frontend-iota.vercel.app",'http://localhost:3000/api/v1/books'],
+        origin: ['http://localhost:5173', "https://book-store-application-iota.vercel.app",'http://localhost:3000/api/v1/books'],
         credentials: true,
     }
 ))
